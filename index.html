@@ -1,10 +1,87 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>My first heading</h1>
-        <p>My first paragraph</p>
-        <h2>My second heading</h2>
-        <p>My second paragraph</p>
-    </body>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+  <title>Luke Deni</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Luke Deni">
+  <meta name="description" content="Meet your new hire, Luke Deni. He can code, he can understand genetics and biochemistry, he can make your day.">
+  <meta name="keywords" content="Luke Deni, University of Virginia, Computer Science (B.S.), CS, undergraduate">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/typed.js"></script>
+</head>
+
+<body>
+  <center>
+    <div class="container in-front">
+      <h1><span class="subtitle"></span></h1>
+      <script>
+        $(function() {
+          $(".subtitle").typed({
+            strings: ["Luke Deni.", "Computer Science.", "University of Virginia.", "Go Hoos."],
+            loop: true,
+            typeSpeed: 50
+          });
+        });
+      </script>
+    </div>
+    <div class="container-fluid text-center in-front">
+      <h4></h4>
+      <nav role="navigation">
+        <ul class="nav nav-pills dark-pill" style="display: inline-block;">
+          <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+          <li><a href="https://github.com/lukedeni/" target="_blank" rel="nofollow">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/lukedeni" target="_blank" rel="nofollow">LinkedIn</a></li>
+          <li><a href="https://drive.google.com/file/d/1vakVukPnwAhI7in5xxpYtp4ZldAP0QRL/view?usp=sharing" target="_blank" rel="nofollow">Resumé</a></li>
+          <li><a href="mailto:lmd2pg@virginia.edu?Subject=Hello, Luke!">Contact</a></li>
+          <!-- 				  <li><a data-toggle="pill" href="https://lukedeni.github.io/parsegon" target="_blank" rel="nofollow">Recent Project(s)</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="container in-front">
+      <div class="picturesque"><img src="images/face2.jpeg" title="please hire me" alt="Luke Deni 2019" style="border-radius: 50%" width="40%" height="40%"></div>
+      <h3>Nice to meet you, I'm Luke.</h3>
+      <p>I'm a rising third year at the University of Virginia ('20) studying of Computer Science with an interest in <i>Data Engineering and Software Development</i>. I've been involved in research since my freshman year,
+        ranging from metabolomic data calculations to image analysis with mice chromosomes. You can see some of my projects (including Hackathon projects) on my
+        <u><a href="https://github.com/lukedeni" target="_blank" rel="nofollow">personal GitHub</a></u>.</p>
+      <p>After a Software Development internship at
+        <u><a href="http://www.thesilverlining.com/" target="_blank" rel="nofollow">West Bend Mutual Insurance</a></u>, I'm on the lookout for an internship in Data Engineering or Software Development for summer 2018.</p>
+      <p>On weekends I'm usually trying to start small projects to teach myself something new, but I enjoy traveling to <u><a href="https://devpost.com/lukedeni" target="_blank" rel="nofollow">Hackathons</a></u>, Competitive Programming, Rock Climbing, and Overwatch/League of Legends.</p>
+      <p>Thanks for your time!</p>
+      <br>
+    </div>
+    <div class="behind">
+      <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+      <canvas id="canvas2">Canvas is not supported in your browser.</canvas>
+    </div>
+
+    <footer>
+            <div class="container in-front">
+              <div>
+                <i> <a href = "https://www.linkedin.com/in/lukedeni/" target="_blank" rel="nofollow">
+                          <img src = "images/li.png" width = "5%" height = "5%"></a></i>
+                <i> <a href = "mailto:lmd2pg@virginia.edu?Subject=Hello, Luke!">
+                          <img src = "images/email.png" width = "5%" height = "5%"> </a></i>
+                <i> <a href = "https://www.facebook.com/luke.deni" target="_blank" rel="nofollow">
+                          <img src = "images/fb.png" width = "5%" height = "5%"></a></i>
+                <i> <a href = "http://www.github.com/lmd2pg" target="_blank" rel="nofollow">
+                          <img src = "images/git.png" width = "5%" height = "5%"></a></i>
+              </div>
+              <br><span id="footer_text">
+              <script>document.write("Latest update: " + document.lastModified +"");</script>
+                      </span>
+              <br><span id="footer_text">&copy; 2019 Luke Deni</span>
+            </div>
+          </footer>
+    <!-- <script src="js/matrix.js"></script> -->
+    
+  </center>
+</body>
 
 </html>
