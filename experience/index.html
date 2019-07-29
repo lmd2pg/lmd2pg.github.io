@@ -36,7 +36,7 @@
         <ul class="nav nav-pills dark-pill" style="display: inline-block;">
             <li><a href="../">Home</a></li>
             <li class="active"><a data-toggle="pill" href="#experience">Experience</a></li>
-            <li><a href="https://github.com/lukedeni/" target="_blank" rel="nofollow">GitHub</a></li>
+            <!-- <li><a href="https://github.com/lukedeni/" target="_blank" rel="nofollow">GitHub</a></li> -->
             <li><a href="https://www.linkedin.com/in/lukedeni" target="_blank" rel="nofollow">LinkedIn</a></li>
             <li><a href="Documents/Resume.pdf" target="_blank" rel="nofollow">Resumé</a></li>
             <li><a href="mailto:lmd2pg@virginia.edu?Subject=Hello, Luke!">Contact</a></li>
@@ -52,17 +52,63 @@
             <tr>
               <td>
                   <center>
-                    <img src="../images/c1.png" title="Capital One" alt="Capital One" class="left"  width="40%" height="40%"> </td>
+                    <img src="../images/c1.png" title="Capital One" alt="Capital One" class="left"  width="70%" height="70%"> </td>
                   </center>
               <td>
                   <center>
                     <b>Technology Internship Program at Capital One</b><br>
                     During my time as a Technology Intern at Capital One, I was apart of the team that runs the Commercial Data Refinery. 
-                    My main area of concern was the efficiency of jobs run through
-                  </center>
-                
+                    My main area of concern was the efficiency of the metrics (or jobs) running through the refinery. Every day, around 1800
+                    jobs are run through the refinery, and data about the jobs are collected, such as the cloud resources they use, the amount of 
+                    resources they utilize, their statuses, and etc.. <br> The idea for the intern project was to create a User Interface that displays
+                    information about the jobs run through the refnery, including cost analytics and statuses of jobs. This would help provide more 
+                    transparency with the Data Analysts without having direct database access. My part of the overall project were as follows:
+                    <br> <br>
+                </center>
+                    <ul>
+                        <li>Worked with MySQL to aggregate data about metric runs, or "jobs", into one table to get resource utilization information and distribution of resources given to each in AWS.</li>
+                        <li>Created a cost algorithm to determine the cost of the jobs ran.</li>
+                        <li>Developed an API to display the database information and calculate the cost of each and return different endpoints which were then displayed via a React application. The API would return histories of a specific metric run, and allow the user to specify how far back the records went. It also returned history of refinery daily runs, which were sorted by the highest cost. </li>
+                        <li>Migrated the MySQL database to PostgreSQL in hopes of utilizing materialized views for better performing data aggregation.</li>
+                        <li>Deployed the API via AWS, using a Capital One pipeline.</li>
+                    </ul>
             </td> 
             </tr>
+
+            <tr>
+                    <td>
+                        <center>
+                          <img src="../images/uva.png" title="UVA" alt="UVA" class="left"  width="70%" height="70%"> </td>
+                        </center>
+                    <td>
+                        <center>
+                          <b>University of Virginia Rising Third Year, Expected Graduation May 2020</b>
+                          <br> 
+                          Relevent Courses Include:
+                          </center>
+                          <ul>
+                              <li>CS 1110: Introduction to Programming</li>
+                              <li>CS 2102: Discrete Mathematics</li>
+                              <li>CS 2110: Software Development Methods</li>
+                              <li>CS 2150: Data Structures and Representation</li>
+                              <li>CS 2330: Digital Logic Design</li>
+                              <li>CS 3102: Theory of Computation</li>
+                              <li>CS 3330: Computer Architecture</li>
+                              <li>CS 3501: Introduction to Cybersecurity</li>
+                              <li>CS 4102: Algorithms</li>
+                              <li>CS 4760: Network Security</li>
+                          </ul>
+                          <br>
+                          <center>Other Notable Experiences: </center>
+                          <br>
+                          <ul>
+                              <li>Teachers' Assistant for CS 2110: Responsible for holding office hours to help students with class content, instruct laboratories, create exam questions, and further help prepare lecture content.</li>
+                              <li>Participant of Hoos Hack, the hackathon at UVA. Our team created a Road Trip UI that Users inputted their start and end destinations, and it outputted places along the way as well as the weather in each of those places, and sevred as a map.</li>
+                              <li>Participant in Google Hash Code, where a problem was given and the best optimizations leading to the best result warranted points. The problem dealt with sorting an album of pictures into a photobook, and ordering the pictures in such a way that the pictures near it were related but not too closely, to keep it "interesting." </li>
+                          </ul>
+                  </td> 
+                  </tr>
+
           </table>
         <br>
       </div>
@@ -77,8 +123,8 @@
                           <img src = "../images/email.png" width = "5%" height = "5%"> </a></i>
                 <i> <a href = "https://www.facebook.com/luke.deni" target="_blank" rel="nofollow">
                           <img src = "../images/fb.png" width = "5%" height = "5%"></a></i>
-                <i> <a href = "http://www.github.com/lmd2pg" target="_blank" rel="nofollow">
-                          <img src = "../images/git.png" width = "5%" height = "5%"></a></i>
+                <!-- <i> <a href = "http://www.github.com/lmd2pg" target="_blank" rel="nofollow">
+                          <img src = "../images/git.png" width = "5%" height = "5%"></a></i> -->
               </div>
               <br><span id="footer_text">
               <script>document.write("Latest update: " + document.lastModified +"");</script>
